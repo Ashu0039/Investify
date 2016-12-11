@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+
+  <!--  Screen 1 Starts  -->
+
+    <div class="container equity-table">
+      <div class="row">
+        <div class="col-xs-12 col-md-6 col-lg-3">
+          <div class="progress-radial progress-67">
+            <div class="overlay">EQUITY 67%</div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-3 row-container">
+            <div class="title">Curr. value</div>
+            <div class="value">Rs. 19,83,000</div>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-3 row-container">
+            <div class="title">Curr. value</div>
+            <div class="value">Rs. 19,83,000</div>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-3 row-container">
+            <div class="title">Net Gain/Loss</div>
+            <div class="value gain-loss">Rs. 2,23,000 <span>(13%)</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!--  Screen 1 Ends -->
+
+    <!--  Screen 2 Starts  -->
+
+    <div class="container kyc-table">
+    <div class="row">
+      <div class="col-xs-4 col-sm-3 col-md-2">
+        <br />
+        <p>Show</p>
+      </div>
+      <div class="col-xs-8 col-sm-9 col-md-10">
+              <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle kyc-btn" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                  KYC <br />COMPLETED
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu kyc-menu" aria-labelledby="dropdownMenu1">
+                  <li><a href="#">MANDATE<br />SENT</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">MANDATE<br />RECEIVED</a></li>
+                </ul>
+            </div>
+      </div>
+    </div>
+
+    <div class="table-responsive">
+      <table class="table">
+        <tr class="title">
+          <td><br />SI. No.</td>
+          <td class="kyc-table-name"><br />Customer Name</td>
+          <td>KYC<br />COMPLETED</td>
+          <td>MANDATE<br />SENT</td>
+          <td><br />CLEARED</td>
+          <td><br />DISAPPROVED</td>
+        </tr>
+        <tr>
+          <td>01</td>
+          <td class="kyc-table-name">Ellen<br />De Generes</td>
+          <td><button class="btn kyc-date">2 Jan 16</button>&nbsp;&nbsp;<i class="fa  fa-calendar-check-o"></i></td>
+          <td><button class="btn kyc-date">2 Jan 16</button>&nbsp;&nbsp;<i class="fa  fa-calendar-check-o"></i></td>
+          <td><button class="btn kyc-date"><span><i class="fa fa-check-square"></i></span>&nbsp;2 Jan 2016</button></td>
+          <td><button class="btn kyc-date"><span><i class="fa fa-times"></i></span>&nbsp;2 Jan 2016</button></td>
+        </tr>
+        <tr>
+          <td>02</td>
+          <td class="kyc-table-name">De Generes</td>
+          <td><button class="btn kyc-date">2 Jan 16</button>&nbsp;&nbsp;<i class="fa  fa-calendar-check-o"></i></td>
+          <td class="editable-td"><button class="btn kyc-date">2 Jan 16</button>&nbsp;&nbsp;<i class="fa  fa-calendar-plus-o"></i></td>
+          <td><button class="btn kyc-date disabled"><span><i class="fa fa-check-square"></i></span>&nbsp;dd mm yy</button></td>
+          <td><button class="btn kyc-date disabled"><span><i class="fa fa-times"></i></span>&nbsp;dd mm yy</button></td>
+        </tr>
+      </table>
+
+    </div>
+    </div>
+
+    <!--  Screen 2 Ends  -->
+
+    <!--  Screen 3 Starts  -->
+    <div class="container profile">
+      <div class="row">
+        <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+          <h2>Personal Details</h2>  
+        </div>
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 ">
+          <p class="text-right"><button class="btn btn-primary edit-profile">EDIT</button></p> 
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+          <p>We use this information to create your account and access your investment.</p>  
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-3 col-lg-2">
+          <img class="avatar" src="avatar.png">  
+        </div>
+        <div class="col-sm-12 col-md-9 col-lg-10">
+          <form>
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="email" class="form-control" id="name" placeholder="Name">
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="form-group">
+                  <label for="email">Email address</label>
+                  <input type="email" class="form-control" id="email" placeholder="Email">
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="form-group">
+                  <label for="password">Password</label>
+                  <input type="password" class="form-control" id="password" placeholder="Password">
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-6">
+                  <div class="form-group">
+                    <label for="mobile">Mobile Number</label>
+                    <div class="input-group">
+                      <span class="input-group-addon">+91</span>
+                      <input class="form-control" type="number" id="mobile" placeholder="mobile">
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="form-group">
+                  <label for="address">Communication Address</label>
+                  <textarea class="form-control"  id="address" rows="3"></textarea>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

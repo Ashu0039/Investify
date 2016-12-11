@@ -1,0 +1,152 @@
+body {
+  background: #fff;
+}
+
+.container {
+  background: #f2f2f2;
+  margin:  60px auto;
+}
+
+.equity-table {
+  margin: 100px auto;
+  padding: 16px;
+}
+
+.equity-table .row  {
+  background:  #fff;
+  padding: 10px;
+}
+
+.equity-table .row-container {
+  height: 100px;
+  padding-top: 25px;
+  text-align: center;
+}
+
+.equity-table .title {
+  font-size: 16px;
+  font-weight: lighter;
+  padding-bottom: 8px;
+}
+
+.equity-table .value {
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.equity-table .value.gain-loss {
+  font-size: 14px;
+}
+
+.equity-table .value span {
+  font-size: 14px;
+  color: green;
+}
+
+.equity-table .progress-radial {
+  margin: auto;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: tomato;
+}
+
+.equity-table .progress-radial .overlay {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: #fffde8;
+  border-radius: 50%;
+  margin-left: 20px;
+  margin-top: 20px;
+  text-align: center;
+  line-height: 16px;
+  padding-top: 16px;
+  font-weight: bolder;
+  font-size: 12px;
+}
+.equity-table .progress-67 {
+  background-image: linear-gradient(-90deg, blue 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(315deg, green 50%, lightgray 50%, lightgray)
+}
+
+.kyc-table .table {
+  background: #fff;
+  text-align: center;
+}
+
+.kyc-table .table .title {
+  color: #737070;
+  font-weight: bold;
+}
+
+.kyc-table .table .kyc-table-name {
+  text-align: left;
+}
+
+.kyc-table .dropdown {
+  font-weight: bolder;
+}
+
+.kyc-table .dropdown  .kyc-btn {
+      background: #fff !important;
+      margin: 0;
+      width: 160px;
+      border-radius: 0;
+      border-bottom: 0;
+      color: blue !important;
+      font-weight: 700;
+}
+
+.kyc-table .dropdown li a {
+  font-weight: 700;
+}
+
+.kyc-table .row p {
+  text-align: right;
+}
+
+.kyc-table .dropdown .dropdown-menu.kyc-menu {
+  margin: 0;
+  border-radius: 0;
+  text-align: center;
+}
+
+.kyc-table .kyc-date {
+  font-weight: bold;
+  border: 1px solid lightgray;
+}
+
+.kyc-table td i {
+  font-size: 20px;
+  color: #1aaf1a;
+}
+
+.kyc-table .editable-td button {
+  background: #fff;
+}
+
+.kyc-table .editable-td i {
+  color: blue;
+}
+
+.kyc-table td i.fa-times {
+  color: red;
+}
+
+.kyc-table td .disabled * {
+ color: gray !important;
+ cursor: not-allowed;
+}
+
+.profile .avatar {
+  height: 96px;
+  width: 96px;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.profile .edit-profile {
+  margin-top: 20px;
+  margin-right: 20px;
+}
